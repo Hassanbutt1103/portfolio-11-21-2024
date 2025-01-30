@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-image: url("../src/assets/bg-5.png");
+  background-size: cover; /* This makes the background image cover the entire viewport */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */ /* Make the background fixed */
+  height: 100vh; /* Full height of the viewport */
+  width: 100%; /* Full width of the viewport */
+  margin: 0; /* Remove default body margin */
+}
