@@ -8,6 +8,7 @@ import {
   RouterProvider, // Ensure this is imported
 } from "react-router-dom";
 import Contact from "./components/Body 3/Contact Support/Contact.jsx";
+import Services from './components/Body 3/Services/Services.jsx';
 
 // Define your router using an array of route objects
 const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/Contact", // Contact route
     element: <Contact />,
+  },
+  {
+    path: "/Services", // Contact route
+    element: <Services />,
   },
 ]);
 
