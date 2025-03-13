@@ -28,9 +28,9 @@ const Contact = () => {
       </div>
 
       {/* Contact Email Form Section */}
-      <div className="mt-10 px-4 sm:px-6 md:px-10 lg:px-24">
+      
         <ContactEmail />
-      </div>
+      
 
       {/* Footer */}
       <Footer />
