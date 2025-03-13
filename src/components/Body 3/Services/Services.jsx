@@ -9,7 +9,7 @@ const NotFound = () => {
       Page on working⚠
       </h2>
       <p className="text-lg sm:text-xl text-gray-500 mt-2">
-        The page you're looking for doesn't exist.
+        The page you're looking is on working.
       </p>
       
       <Link to="/" className="mt-6 px-6 py-3 bg-[#502c73] text-white text-lg font-medium rounded-lg shadow-md hover:bg-[#a68ac6] transition">
