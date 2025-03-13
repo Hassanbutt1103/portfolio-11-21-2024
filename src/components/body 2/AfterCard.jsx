@@ -6,15 +6,15 @@ const AfterCard = () => {
     { label: "Budget Expansion", percentage: 50, height: "h-40" },
     { label: "Profitability Ratio", percentage: 80, height: "h-56" },
     { label: "Service Requirement", percentage: 80, height: "h-56" },
-    { label: "Agency Progress", percentage: 16, height: "h-14" },
+    { label: "Agency Progress", percentage: 16, height: "h-14" }, 
   ];
 
   return (
-    <div className="font-sans px-6 sm:px-24 mt-20">
+    <div className="font-sans px-6 sm:px-24 mt-20 w-full overflow-hidden">
       {/* Bar Section */}
-      <div className="flex justify-between items-end space-x-4 sm:space-x-8">
+      <div className="flex justify-between items-end space-x-4 sm:space-x-8 w-full">
         {metrics.map((metric, index) => (
-          <div key={index} className="text-center">
+          <div key={index} className="text-center w-full">
             {/* Percentage Display */}
             <p className="font-bold text-2xl sm:text-4xl text-gray-800">
               {metric.percentage}%
@@ -33,8 +33,6 @@ const AfterCard = () => {
 
       {/* Divider */}
       <div className="w-full h-1 sm:h-1 bg-gray-300 mt-8"></div>
-
-
     </div>
   );
 };
