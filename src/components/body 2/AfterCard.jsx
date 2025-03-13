@@ -32,7 +32,9 @@ const AfterCard = () => {
       </div>
 
       {/* Divider */}
-      <div className="w-full h-1 bg-gray-300 mt-8"></div>
+      <div className="w-full h-1 sm:h-1 bg-gray-300 mt-8"></div>
+
+
     </div>
   );
 };
