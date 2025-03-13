@@ -8,7 +8,7 @@ import XIcon from "@mui/icons-material/X";
 const Background = () => {
   const socialLinks = [
     {
-      href: "https://www.instagram.com/cntrl_1103/",
+      href: "https://www.instagram.com/cntl.cv/",
       label: "Instagram Profile",
       icon: <InstagramIcon fontSize="large" />,
     },
