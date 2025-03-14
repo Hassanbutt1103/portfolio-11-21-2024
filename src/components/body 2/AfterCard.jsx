@@ -12,7 +12,7 @@ const AfterCard = () => {
   return (
     <div className="font-sans px-6 sm:px-24 mt-20 w-full ">
       {/* Bar Section */}
-      <div className="flex justify-between items-end space-x-1 sm:space-x-4 w-full">
+      <div className="flex justify-between items-end space-x-0 sm:space-x-4 w-full">
         {metrics.map((metric, index) => (
           <div key={index} className="text-center w-full">
             {/* Percentage Display */}
