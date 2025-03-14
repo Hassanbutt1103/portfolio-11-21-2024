@@ -24,7 +24,7 @@ const AfterCard = () => {
               className={`w-8 sm:w-16 bg-[#261A33] ${metric.height} mx-auto`}
             ></div>
             {/* Label */}
-            <p className="text-sm sm:text-base mt-2 text-gray-600">
+            <p className="text-xs sm:text-base mt-2 text-gray-600">
               {metric.label}
             </p>
           </div>
