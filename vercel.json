@@ -1,14 +1,14 @@
-"routes" : [
+{"routes" : [
     {
         "src":"/",
         "dest":"/"
     },
     {
         "src":"/contact",
-        "dest":"/contact"
+        "dest":"/"
     },
     {
         "src":"/services",
-        "dest":"/services"
-    },
-]
+        "dest":"/"
+    }
+]}
