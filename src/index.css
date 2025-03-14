@@ -10,13 +10,5 @@ body {
   width: 100%; /* Full width of the viewport */
   margin: 0; /* Remove default body margin */
 }
-@media screen and (max-width: 768px) {
-  /* Mobile aur chhoti screens ke liye styles */
-  body {
-    background-size: auto 120vh; /* Image ko height mein bara kar diya */
-    background-position: center; /* Image ko center se align kiya */
-    background-repeat: no-repeat;
-    overflow-x: hidden; /* Extra horizontal scroll ko remove kare */
-  }
-}
+
 
