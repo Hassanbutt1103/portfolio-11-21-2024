@@ -10,9 +10,9 @@ const AfterCard = () => {
   ];
 
   return (
-    <div className="font-sans px-6 sm:px-24 mt-20 w-full overflow-hidden">
+    <div className="font-sans px-6 sm:px-24 mt-20 w-full ">
       {/* Bar Section */}
-      <div className="flex justify-between items-end space-x-4 sm:space-x-8 w-full">
+      <div className="flex justify-between items-end space-x-1 sm:space-x-4 w-full">
         {metrics.map((metric, index) => (
           <div key={index} className="text-center w-full">
             {/* Percentage Display */}
@@ -21,7 +21,7 @@ const AfterCard = () => {
             </p>
             {/* Bar */}
             <div
-              className={`w-10 sm:w-16 bg-[#261A33] ${metric.height} mx-auto`}
+              className={`w-8 sm:w-16 bg-[#261A33] ${metric.height} mx-auto`}
             ></div>
             {/* Label */}
             <p className="text-sm sm:text-base mt-2 text-gray-600">
