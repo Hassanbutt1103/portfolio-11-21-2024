@@ -17,11 +17,11 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/Contact", // Contact route
+    path: "/contact", // Contact route
     element: <Contact />,
   },
   {
-    path: "/Services", // Contact route
+    path: "/services", // Contact route
     element: <Services />,
   },
 ]);

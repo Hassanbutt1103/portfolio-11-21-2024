@@ -64,7 +64,7 @@ const Header = () => {
           <NavLink to="/">
             <MenuItem onClick={handleClose}>Home</MenuItem>
           </NavLink>
-          <NavLink to="/Contact">
+          <NavLink to="/contact">
             <MenuItem onClick={handleClose}>Contact</MenuItem>
           </NavLink>
           <NavLink to="/services">
