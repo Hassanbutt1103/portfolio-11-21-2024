@@ -5,10 +5,10 @@
     },
     {
         "src":"/contact",
-        "dest":"/"
+        "dest":"/contact"
     },
     {
         "src":"/services",
-        "dest":"/"
+        "dest":"/services"
     },
 ]
