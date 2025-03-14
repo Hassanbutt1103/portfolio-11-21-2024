@@ -10,3 +10,14 @@ body {
   width: 100%; /* Full width of the viewport */
   margin: 0; /* Remove default body margin */
 }
+@media screen and (max-width: 768px) {
+  body {
+    background-size: contain; /* Mobile screen par pura image dekhne ke liye */
+    background-attachment: scroll; /* Scroll ke sath image move kare */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+  }
+}
