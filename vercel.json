@@ -1,0 +1,14 @@
+"routes" : [
+    {
+        "src":"/",
+        "dest":"/"
+    },
+    {
+        "src":"/contact",
+        "dest":"/"
+    },
+    {
+        "src":"/services",
+        "dest":"/"
+    },
+]
